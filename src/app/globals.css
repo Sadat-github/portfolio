@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-bg text-text font-sans antialiased;
+    background-image:
+      radial-gradient(60% 50% at 50% 0%, rgba(57, 255, 139, 0.06), transparent 70%),
+      linear-gradient(to bottom, #0a0e0d, #080b0a);
+    background-attachment: fixed;
+  }
+
+  ::selection {
+    background: rgba(57, 255, 139, 0.25);
+    color: #e9f2ee;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0a0e0d;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1d2a26;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2ee07a;
+  }
+}
+
+@layer components {
+  /* Faint terminal grid overlay */
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(57, 255, 139, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(57, 255, 139, 0.04) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 40%, #000 40%, transparent 100%);
+  }
+
+  .glass {
+    @apply border border-border bg-panel/70 backdrop-blur-sm;
+  }
+
+  .chip {
+    @apply inline-flex items-center rounded-md border border-border bg-surface px-2.5 py-1 font-mono text-xs text-muted;
+  }
+
+  .link-underline {
+    @apply relative text-text transition-colors hover:text-phosphor;
+  }
+
+  .section-pad {
+    @apply mx-auto max-w-5xl px-5 py-20 sm:px-8 sm:py-28;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 18px rgba(57, 255, 139, 0.45);
+  }
+}
