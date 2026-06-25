@@ -176,7 +176,7 @@ export const education: EducationItem[] = [
   {
     school: "Ahsanullah University Of Science & Technology",
     degree: "B.Sc. in Computer Science & Engineering",
-    period: "2010-2014"
+    period: "2010-2014",
     note: "Foundations in networking, operating systems, and databases that underpin my infra work today.",
   },
 ];
