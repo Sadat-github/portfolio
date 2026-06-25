@@ -204,5 +204,5 @@ export const nav = [
 export const meta = {
   title: `${profile.name} — ${profile.role}`,
   description: `${profile.name} is a ${profile.role} specializing in Linux, OpenLiteSpeed/Nginx, DNS, SSL and web-hosting incident response.`,
-  url: "https://your-domain.com",        // ← CHANGE ME (used for SEO/OG)
+  url: "https://portfolio.nsadat.online",        // ← CHANGE ME (used for SEO/OG)
 };
