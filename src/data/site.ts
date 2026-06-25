@@ -174,9 +174,8 @@ export type EducationItem = { school: string; degree: string; period: string; no
 
 export const education: EducationItem[] = [
   {
-    school: "Your University",            // ← CHANGE ME
+    school: "Ahsanullah University Of Science & Technology",
     degree: "B.Sc. in Computer Science & Engineering",
-    period: "2018 — 2022",
     note: "Foundations in networking, operating systems, and databases that underpin my infra work today.",
   },
 ];
