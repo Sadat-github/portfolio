@@ -12,7 +12,7 @@ export const profile = {
   name: "Md. Nazmus Sadat",            
   initials: "SADAT",                   
   role: "Technical Support Engineer",
-  tagline: "I keep web infrastructure online — and engineers unblocked.",
+  tagline: "I keep web infrastructure online and engineers unblocked.",
   location: "Uttara, Dhaka, Bangladesh",
   availability: "Open to support / infra roles",
   email: "nazmus.sadat.sohagh@gmail.com",        // ← CHANGE ME
@@ -40,7 +40,7 @@ export const hero = {
     "[ OK ]  Resolving DNS ...",
     "[ OK ]  Validating SSL certificates ...",
     "[ OK ]  Reticulating splines ...",
-    "[ OK ]  System ready.",
+    "[ OK ]  System ready..............................................",
   ],
 };
 
