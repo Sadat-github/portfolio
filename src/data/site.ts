@@ -40,7 +40,7 @@ export const hero = {
     "[ OK ]  Resolving DNS ...",
     "[ OK ]  Validating SSL certificates ...",
     "[ OK ]  Reticulating splines ...",
-    "[ OK ]  System ready..............................................",
+    "[ OK ]  System ready ...",
   ],
 };
 
