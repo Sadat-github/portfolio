@@ -142,7 +142,7 @@ export type CaseStudy = {
 
 export const caseStudies: CaseStudy[] = [
   {
-    id: "mysql-oom",
+    id: "MySQL OOM",
     title: "MySQL OOM crash-loop on a multi-tenant box",
     severity: "SEV-1",
     problem: "Sites across a shared VPS intermittently 502'd with DB-connection errors; mysqld was being OOM-killed repeatedly.",
