@@ -104,7 +104,7 @@ export const experience: Experience[] = [
   {
     company: "xCloud Hosting",
     role: "Technical Support Engineer",
-    period: "Jan 2026 — Present",
+    period: "June 2025 — Present",
     current: true,
     points: [
       "Front-line and escalation support for managed VPS customers on the OpenLiteSpeed stack.",
@@ -114,9 +114,9 @@ export const experience: Experience[] = [
     stack: ["OpenLiteSpeed", "Nginx", "MySQL", "PHP-FPM", "Cloudflare", "Bash"],
   },
   {
-    company: "Previous Company",          // ← CHANGE ME
-    role: "Support / Junior Engineer",
-    period: "2024 — 2025",
+    company: "SouthTech Limited",
+    role: "Implementation Engineer",
+    period: "2023 — 2025",
     points: [
       "Resolved customer tickets across hosting, email, and DNS.",
       "Performed site migrations and post-migration verification.",
